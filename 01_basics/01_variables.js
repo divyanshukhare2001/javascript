@@ -12,3 +12,6 @@ let accountState;
 
 console.log(accountId);
 console.table([accountId , accountMail , accountBalance , accountCity , accountState]);
+
+
+/* never use var keyword bcoz of issue in block scope & functional scope */
