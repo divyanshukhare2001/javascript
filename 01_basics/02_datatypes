@@ -22,6 +22,8 @@ let state;
 
 //object
 
+
+//typeof gives the type of datatype
 console.log(typeof undefined);  //output =>undefined
 console.log(typeof null);  //output =>object
 
