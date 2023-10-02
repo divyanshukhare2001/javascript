@@ -61,3 +61,31 @@ country = "india";
    array                 object
    object                object
    function              object-function*/
+
+
+
+   /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+   /* stack (primitve)  heap (reference) */
+
+   let email1 = "divyanshu@email.com";
+   let email2 = email1;
+   email2 = "div@email1.com";
+
+   console.table([email1,email2]);
+
+
+   let obj1 = {
+      name:"divyanshu",
+      college:"jamia hamdard"
+   }
+
+   let obj2 = obj1;
+
+   obj2.name = "imran";
+   /* dis will also change name in obj1 as obj1 is passed by reference
+      to obj2 */
+
+   console.log(obj1);
+   console.log(obj2);
