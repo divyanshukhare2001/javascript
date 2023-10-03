@@ -29,18 +29,6 @@ console.log(typeof null);  //output =>object
 
 
 
-/* Using typeof function
 
-   datatype            return type
-   
-   number                number
-   string                string
-   null                  object
-   boolean               boolean
-   symbol                symbol
-   undefined             undefined
-   array                 object
-   object                object
-   function              object-function*/
 
 
