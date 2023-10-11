@@ -27,7 +27,8 @@ const myArr2 = new Array(5,4,3,2);
 
 const newArr = myArr.join();
 /* this changes array to a string type */
-//console.log(newArr);
+// console.log(myArr);
+// console.log(newArr);
 
 
 
