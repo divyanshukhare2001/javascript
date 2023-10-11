@@ -11,7 +11,7 @@ accountBalance = "500";
 let accountState;
 
 console.log(accountId);
-console.table([accountId , accountMail , accountBalance , accountCity , accountState]);
+console.table([accountId , accountMail = "lol" , accountBalance , accountCity , accountState]);
 
 
 /* never use var keyword bcoz of issue in block scope & functional scope */
