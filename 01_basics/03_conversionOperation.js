@@ -6,6 +6,7 @@ let score = "35abs";
 /*type conversion*/
 
  let scoreInNumber = Number(score);
+ 
 
 //  console.log(typeof scoreInNumber);
 //  console.log(scoreInNumber);
@@ -19,7 +20,7 @@ let score = "35abs";
     
     => in case of boolean , number conversion = 0/1
     
-    => in case of undefined , number conversion = Nan*/
+    => in case of undefined , number conversion = Nan      */
 
 
    //  let isLoggedIn = "divyanshu";
@@ -45,6 +46,7 @@ let city2 = Boolean(city);
 // console.log(city);
 // console.log(city1);
 // console.log(city2);
+
 /* empty string => number = 0
    empty string => boolean = false */
 
@@ -56,15 +58,15 @@ let city2 = Boolean(city);
       let negativeValue = -value;
      // console.log(negativeValue);
 
-     //console.log(2**3)   /* '**' it means 2 raised to power 3*/
+     //console.log(2**3)   /* '**' it means 2 raised to power 3 */
 
      let str1 = "5";
      let str2 = "3";
-     //console.log(str1 + str2);
+   //   console.log(str1 + str2);
 
    //   console.log(2 + "3");
-   //   console.log(5 + 6 + "7");
-   //   console.log("7" + 8 +9);
+   //   console.log(5 + 6 + "7"); /* op=> 117 */
+   //   console.log("7" + 8 +9);  /* op=> 789 */
 
    let first = "divyanshu";
    let second = "khare";

@@ -9,11 +9,11 @@ const anotherScore = new Number(100);
 // console.log(typeof anotherScore);
 
 // console.log(anotherScore.toString().length);
-// console.log(anotherScore.toFixed(2));
+// console.log(anotherScore.toFixed(2));            /* op => 100.00 */
 /* it restricts the no. of decimal to 2 places */
 
 const otherNumber = 184.9876;
-// console.log(otherNumber.toPrecision(4));
+// console.log(otherNumber.toPrecision(5));
 
 const hundreds = 1000000;
 // console.log(hundreds.toLocaleString("en-IN"));
@@ -22,15 +22,15 @@ const hundreds = 1000000;
 
 /* +++++++++++++++++++++++++++++++Math++++++++++++++++++++++++++++++ */
 
-console.log(Math);
-console.log(Math.abs(-4));
-console.log(Math.round(5.36));   /* removes decimal , and rounds of the number */
-console.log(Math.ceil(4.2));
-console.log(Math.floor(4.9));
-console.log(Math.min(-4,5,0,3));
-console.log(Math.max(-4,55,9,4));
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(5.36));   /* removes decimal , and rounds of the number */
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.9));
+// console.log(Math.min(-4,5,0,3));
+// console.log(Math.max(-4,55,9,4));
 
-console.log(Math.random()); /* it generates random no b/w [0,1] */
+console.log(Math.random()); /* it generates random no b/w [0,1) */
 console.log(Math.random()*10 +1);/* for making its min = 1 */
 console.log(Math.floor(Math.random()*10 +1));/* for removing all decimal values */
 

@@ -8,12 +8,13 @@ console.log(`hello my name is ${name} & my repocount is : ${repoCount}`);
 let name1 = new String("Imran");
 
 // console.log(typeof name);
- //console.log(typeof name1);
+//  console.log(typeof name1);
 
 
 let name2 = name1;
 
 //  console.log(name2);
+//  console.log(typeof name2);
 
 name2 ="saif";
 // console.log(name2);
@@ -31,23 +32,29 @@ name2 ="saif";
 // console.log(name.charAt(2));
 // console.log(name.indexOf('d'));
 
-const newString = name.substring(0,4);
-//console.log(newString);
+const newString = name.substring(0,4);   /* [,) */
+// console.log(newString);
 
-const anotherString = name.slice(-6,-4);
-//console.log(anotherString);
+const anotherString = name.slice(-6,-4);    /* [,) */
+// console.log(anotherString);
+
+
+let short = name.slice(4,8);
+// console.log(short);
 
 const naam = "    hitesh     ";
 const anotherNaam = naam.trim();
+/* but this trim won't work for spaces in b/w the characters of a string */
 
 // console.log(naam);
 // console.log(anotherNaam);
 
 const url = "divyanshu.in/divyanshu%20khare";
-console.log(url.replace("%20" , "-"));
+// console.log(url.replace("%20" , "-"));
 
-console.log(url.includes("divyanshu"));
-console.log(url.includes("imran"));
+// console.log(url.includes("divyanshu"));
+// console.log(url.includes("imran"));
 
 const newName = "divyanshu khare";
-console.log(newName.split(''));
+// console.log(newName.split(''));
+// console.log(newName.split(' '));

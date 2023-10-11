@@ -2,13 +2,14 @@
 
 //alert(3+3);  //we are using nodejs not browser
 
-console.log(3+3);
-console.log("divyanshu");
+// console.log(3+3);
+// console.log("divyanshu");
 
-let name = "divyanshu";
+let name = 'divyanshu';
 let age = 18;
 let loggedIn = false;
 let state;
+
 
 //primitive datatype
 
@@ -24,8 +25,8 @@ let state;
 
 
 //typeof gives the type of datatype
-console.log(typeof undefined);  //output =>undefined
-console.log(typeof null);  //output =>object
+//console.log(typeof undefined);  //output =>undefined
+//console.log(typeof null);  //output =>object
 
 
 

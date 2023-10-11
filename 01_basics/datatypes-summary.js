@@ -38,15 +38,15 @@ country = "india";
       age: 18
    }
 
-   console.log(superheroes);
-   console.log(myObj);
+   // console.log(superheroes);
+   // console.log(myObj);
 
 
    const myFunction = function(){
     console.log("hello world");
    }
 
-  console.log(myFunction);
+  //console.log(myFunction());
 
   /* Using typeof function
 

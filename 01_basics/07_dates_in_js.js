@@ -15,18 +15,18 @@ let myDate = new Date();
 /* setting customized date */
 
 /* method 1 */
-let myCreatedDate = new Date(2023,9,4);
+let myCreatedDate = new Date(2023,9,4);  /* yyy/mm//dd */
 /* month starts from 0 in javascript */
 // console.log(myCreatedDate.toDateString());
 // console.log(myCreatedDate.toLocaleDateString());
 // console.log(myCreatedDate.toLocaleString());
 
-/* method 1 */
-let myCreatedDate2 = new Date("04-09-2023");
+/* method 2 */    /* mujhe ye theek nahi laga */
+let myCreatedDate2 = new Date("05-09-2023");
 /* month starts from 1 in this case */
-// console.log(myCreatedDate.toDateString());
-// console.log(myCreatedDate.toLocaleDateString());
-// console.log(myCreatedDate.toLocaleString());
+// console.log(myCreatedDate2.toDateString());
+// console.log(myCreatedDate2.toLocaleDateString());
+// console.log(myCreatedDate2.toLocaleString());
 
 
 let myCreatedDateWithTime = new Date(2023,9,4,23,49);
@@ -36,6 +36,7 @@ let myTimeStamp = Date.now();
  /* The Date.now() static method returns the number of milliseconds
   elapsed since the epoch, which is defined as the midnight at the 
   beginning of January 1, 1970, UTC. */
+
 // console.log(myTimeStamp); 
 // console.log(myCreatedDate.getTime());
 /* .getTime gives the value of the time set in the date variable in
@@ -54,10 +55,10 @@ let newDate = new Date();
 //console.log(newDate.getMonth()); 
 /* month starts from 0 in Js */
 
-console.log(`date is: ${newDate.getDate()} \ntime is:${newDate.getTime()}`);
+ //console.log(`date is: ${newDate.getDate()} \ntime is:${newDate.getTime()}`);
 
-console.log(myCreatedDate.getTime());
-console.log(newDate.getTime());
+// console.log(myCreatedDate.getTime());
+// console.log(newDate.getTime());
 /* .getTime() gives time in milliseconds */
 
 

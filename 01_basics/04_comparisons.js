@@ -22,5 +22,5 @@
          /* '===' this does strict comparison i.e i even takes 
              datatypes into account */
 
-             console.log("5" == 5);  /* o/p => true */
-             console.log("5" === 5); /* o/p => false */
+            //  console.log("5" == 5);  /* o/p => true */
+            //  console.log("5" === 5); /* o/p => false */
