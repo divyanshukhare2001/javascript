@@ -87,12 +87,37 @@ users[1].id
 
 
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));  /* this returns an array of 
-                                           all keys in object */
-console.log(Object.values(tinderUser)); 
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));  /* this returns an array of 
+//                                            all keys in object */
+// console.log(Object.values(tinderUser)); 
 
-console.log(Object.entries(tinderUser));
+// console.log(Object.entries(tinderUser));
 /* this returns the array of each property and its value in object */
 
-console.log(tinderUser.hasOwnProperty("signIn"));
+// console.log(tinderUser.hasOwnProperty("signIn"));
+
+
+/* *********************de-structuring***************8 */
+
+
+const resident = {
+    name: "divyanshu" , 
+    address: "b-92" , 
+    id: 123987
+}
+
+console.log(resident);
+
+/* here we are doing de-structing after which we can directly use 
+   the property name instead of resident.address */
+const {name} = resident;
+
+/* here address:add is used to further shorten the property name */
+let {address:add} = resident;
+
+add = "kgf";
+
+console.log(add);
+console.log(name);
+console.log(resident);
