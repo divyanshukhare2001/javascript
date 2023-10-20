@@ -31,7 +31,8 @@ const dcHeroes = ["wonder_woman" , "batman" , "flash"];
 
      console.log(Array.from("divyanshu" ));
 
-     console.log(Array.from({name:"divyanshu"}));
+     console.log(Array.from({name:"divyanshu"})); /* interesting case ,
+                                                  aage dekhenge about it */
 
      let score1 = 100;
      let score2 = 200;
