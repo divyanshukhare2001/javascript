@@ -1,9 +1,10 @@
 let myDate = new Date();
-// console.log(myDate);
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toJSON());
+//  console.log(myDate);
+//  console.log(typeof myDate);     /* o/p => object */
+//  console.log(myDate.toString());
+//  console.log(myDate.toDateString());
+//  console.log(myDate.toISOString());
+//  console.log(myDate.toJSON());
 // console.log(myDate.toLocaleDateString());
 // console.log(myDate.toLocaleString());
 // console.log(myDate.toLocaleTimeString());
@@ -17,12 +18,13 @@ let myDate = new Date();
 /* method 1 */
 let myCreatedDate = new Date(2023,9,4);  /* yyy/mm//dd */
 /* month starts from 0 in javascript */
+// console.log(myCreatedDate);
 // console.log(myCreatedDate.toDateString());
 // console.log(myCreatedDate.toLocaleDateString());
 // console.log(myCreatedDate.toLocaleString());
 
 /* method 2 */    /* mujhe ye theek nahi laga */
-let myCreatedDate2 = new Date("05-09-2023");
+let myCreatedDate2 = new Date("05-10-2023"); /* mm-dd-yyyy */
 /* month starts from 1 in this case */
 // console.log(myCreatedDate2.toDateString());
 // console.log(myCreatedDate2.toLocaleDateString());
@@ -62,4 +64,6 @@ let newDate = new Date();
 /* .getTime() gives time in milliseconds */
 
 
-console.log(newDate.toLocaleString('default' , {weekday: "long" }));
+console.log(newDate.toLocaleString("default" , {
+  weekday: "long" 
+}));
