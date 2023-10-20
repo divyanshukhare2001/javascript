@@ -1,6 +1,6 @@
 /* making object through a constructor */
 const instagram = new Object();
-console.log(instagram);
+//console.log(instagram);
 
 /* making object through literals */
 const tinderUser = {
@@ -64,6 +64,7 @@ const obj8 = {...obj5 , ...obj6};
 /* spread operator also does not manipulate the actual objects */
 
 
+/* array of objects */
 const users = [
     {
         id: "1" , 
@@ -83,19 +84,19 @@ const users = [
     } ,
 ]
 
-users[1].id
+//users[1].id
 
 
 
-// console.log(tinderUser);
+//  console.log(tinderUser);
 // console.log(Object.keys(tinderUser));  /* this returns an array of 
-//                                            all keys in object */
-// console.log(Object.values(tinderUser)); 
+// //                                            all keys in object */
+//  console.log(Object.values(tinderUser)); 
 
 // console.log(Object.entries(tinderUser));
 /* this returns the array of each property and its value in object */
 
-// console.log(tinderUser.hasOwnProperty("signIn"));
+// console.log(tinderUser.hasOwnProperty("speaker"));
 
 
 /* *********************de-structuring***************8 */

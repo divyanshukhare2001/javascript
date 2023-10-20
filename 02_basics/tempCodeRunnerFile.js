@@ -1,2 +1,1 @@
-nsole.log(myArr);
-console.log(newArr);
+console.log(JsUser["email"]);
