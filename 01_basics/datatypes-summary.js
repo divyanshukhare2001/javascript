@@ -22,10 +22,13 @@ country = "india";
    you do not need to specify what type this variable is. */
 
 
-   const Id = Symbol('123');
-   const anotherId = Symbol('123');
-   //console.log(Id === anotherId);  /* o/p => false */   
-   /* symbols are used to make each components as unique */
+   const Id = Symbol("abc");
+   const anotherId = Symbol("abc");
+   // console.log(Id == anotherId);  /* o/p => false */   
+   // console.log(Id === anotherId);  /* o/p => false */  
+  
+
+/* symbols are used to make each components as unique */
 
 
    const bigNumber = 5555555555555555555555555555555555555555555n; /* n at last is used to make BigInt */
@@ -46,7 +49,7 @@ country = "india";
     console.log("hello world");
    }
 
-  //console.log(myFunction());
+//   console.log(myFunction());
 
   /* Using typeof function
 
@@ -73,7 +76,7 @@ country = "india";
    let email2 = email1;
    email2 = "div@email1.com";
 
-   console.table([email1,email2]);
+   //console.table([email1,email2]);
 
 
    let obj1 = {

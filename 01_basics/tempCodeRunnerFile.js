@@ -1,2 +1,2 @@
-console.log(name2);
-console.log(name1);
+console.log(typeof name);
+ console.log(typeof name1);

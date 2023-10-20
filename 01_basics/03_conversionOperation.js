@@ -23,17 +23,18 @@ let score = "35abs";
     => in case of undefined , number conversion = Nan      */
 
 
-   //  let isLoggedIn = "divyanshu";
+   //  let isLoggedIn = undefined;
    //  let booleanIsLoggedIn = Boolean(isLoggedIn);
 
    //  console.log(booleanIsLoggedIn);
-    // console.log(typeof booleanIsLoggedIn);
+   //  console.log(typeof booleanIsLoggedIn);
 
-    /* 1=> true, 0 => false
-       "" => false , "divyanshu"  => true */
+/*  0 => false , any number except 0=> true
+"" i.e empty string => false , "divyanshu" i.e occupied string  => true
+   undefined => false */
 
-       let someNumber = 20;
-       let stringNumber = String(someNumber);
+      //  let someNumber = 57;
+      //  let stringNumber = String(someNumber);
 
       //  console.log(stringNumber);
       //  console.log(typeof stringNumber);
@@ -70,7 +71,7 @@ let city2 = Boolean(city);
 
    let first = "divyanshu";
    let second = "khare";
-   //console.log(first , second);
+   // console.log(first , second);
 
    
 

@@ -28,7 +28,8 @@ let state;
 //console.log(typeof undefined);  //output =>undefined
 //console.log(typeof null);  //output =>object
 
-
+let value = null;
+console.log(value);
 
 
 

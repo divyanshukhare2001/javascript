@@ -5,7 +5,7 @@
 // console.log("3" > null);
 // console.log("007" < 5);
 // console.log(5 > "1");
-/* in these cases sting is being converted to number */
+/* in these cases string is being converted to number */
 
 // console.log(null == 0);  /* o/p => false */
 // console.log(null > 0);   /* o/p => false */
