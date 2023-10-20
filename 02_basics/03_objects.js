@@ -72,3 +72,6 @@ console.log(JsUser.bucket);
 /* propeties which i am adding from outside to the object and also getting
    permanent property of the object */
 console.log(JsUser);
+
+/* a function can be called directly like this */
+JsUser.greeting();

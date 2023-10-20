@@ -10,10 +10,10 @@ function sayMyName(){
     console.log("u");
 }
 
-// sayMyName();
-// console.log(`******************`);
+//sayMyName();
+//console.log(`******************`);
 
-const name = function sayMyName(){
+const name = function sayMyName1(){
     console.log("d");
     console.log("i");
     console.log("v");
@@ -25,7 +25,7 @@ const name = function sayMyName(){
     console.log("u");
 }
 
-// name();
+//name();
 
 function addTwoNumbers1(number1 , number2){
        console.log(number1 + number2);
@@ -41,8 +41,6 @@ function addTwoNumbers2(number1 , number2){
 }
 
 const value2 = addTwoNumbers2(2,2);
-
-
 console.log(`value: ${value2}`);
 
 function loginUserMessage(username){ 
@@ -57,6 +55,7 @@ console.log(loginUserMessage("divyanshu"));
 console.log(loginUserMessage());
 
 
+
 /* *********** REST OPERATOR *************** */
 
 function calculateCartPrice(num1){
@@ -69,7 +68,7 @@ console.log(calculateCartPrice(300 , 67 , 757));
    case when we add items in cart where we do not know the number of items
    that will be passed in function before-hand
    
-   in this case we reuire to use REST operator */
+   in this case we require to use REST operator */
 
 
 function calculateCartPrice1(...num1){
