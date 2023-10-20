@@ -13,10 +13,12 @@ const anotherScore = new Number(100);
 /* it restricts the no. of decimal to 2 places */
 
 const otherNumber = 184.9876;
-// console.log(otherNumber.toPrecision(5));
+//console.log(otherNumber.toPrecision(5));
+ /* toPrecision() refers to precision of all digits before and after
+    decimal */
 
-const hundreds = 1000000;
-// console.log(hundreds.toLocaleString("en-IN"));
+const hundreds = 10000000;
+console.log(hundreds.toLocaleString("en-IN"));
 
 
 
@@ -34,8 +36,8 @@ console.log(Math.random()); /* it generates random no b/w [0,1) */
 console.log(Math.random()*10 +1);/* for making its min = 1 */
 console.log(Math.floor(Math.random()*10 +1));/* for removing all decimal values */
 
-const min = 10;
-const max = 20;
+const min = 1;
+const max = 6;
 
 console.log(Math.floor(Math.random()* (max-min)) + min);
 /* IMPORTANT FORMULA for getting values in a particular range */
