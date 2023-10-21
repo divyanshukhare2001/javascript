@@ -15,3 +15,7 @@ console.table([accountId , accountMail = "lol" , accountBalance , accountCity , 
 
 
 /* never use var keyword bcoz of issue in block scope & functional scope */
+
+/* () parenthesis
+   {} curly brackets
+   [] brackets */

@@ -125,11 +125,11 @@ const myNewArray = [100,200,300,400];
 myNewArray[0] = 500;
 console.log(myNewArray);
 
-myNewArray = "divyanshu";
-console.log(myNewArray);
+// myNewArray = "divyanshu";
+// console.log(myNewArray);
 
 function return2ndElement(anyArray){
     return anyArray[1];
-}
+};
 
 console.log(return2ndElement(myNewArray));
