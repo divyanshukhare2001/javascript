@@ -79,3 +79,57 @@ function calculateCartPrice1(...num1){
    thus making it possible to pass all these parameters*/
 console.log(calculateCartPrice1(300 , 67 , 757));
 
+function calculateCartPrice2(val1 , val2 , ...num1){
+    return num1;
+}
+
+/* here 300 will go to val1 , 67 will go to val2 and 757 , 800 will 
+make up the array of num1 */
+console.log(calculateCartPrice2(300 , 67 , 757 , 800));
+
+
+/* we can change the value of properties of a constant object as well */
+const user = {
+    username: "divyanshu",
+    price: 199
+}
+
+console.log(user);
+
+user.price = 800;
+
+console.log(user);
+
+function handlingObject(any){
+    console.log(`username is ${any.username} & price is ${any.price}`);
+}
+
+handlingObject(user);
+
+/* passing an object directly with on the spot creation of it while
+   calling the function */
+handlingObject({
+    username: "aftab",
+    price: 999
+})
+
+/* passing array to a function */
+
+const myNewArray = [100,200,300,400];
+/* an array declared as constant can also be altered/changed */
+/* REASON -> this is because the array on whole is constant but not 
+   its content , so the variable myNewArray is now fixed as a array
+   in the memory location thus it will always remain a array , we can not
+   change myNewArray to a string/number/object like shown in line 128
+   & 129 */
+myNewArray[0] = 500;
+console.log(myNewArray);
+
+myNewArray = "divyanshu";
+console.log(myNewArray);
+
+function return2ndElement(anyArray){
+    return anyArray[1];
+}
+
+console.log(return2ndElement(myNewArray));
