@@ -20,7 +20,7 @@ const user = {
     
 }
 
-// user.welcomeMessage();
+ //user.welcomeMessage();
 // user.username = "imran";
 // user.welcomeMessage();
 
@@ -40,7 +40,7 @@ function chai(){
     as it works with context to an object */
 }
 
-  chai();
+  //chai();
 
 const chai2 = function(){
     let username = "divyanshu";
@@ -49,7 +49,7 @@ const chai2 = function(){
     console.log(this.username);/* o/p=>undefined */
 }
 
-  chai2();
+ // chai2();
 
 /* Arrow Function */
 const chai3 = () =>  {
@@ -59,27 +59,27 @@ const chai3 = () =>  {
     console.log(this.username); /* o/p => undefined */
 }
 
- chai3();
+ //chai3();
 
 /* Basic Arrow Function (explicit) */
 const addTwo = (num1 , num2) => {
     return num1 + num2;
 }
 
-console.log(addTwo(3,4));
+//console.log(addTwo(3,4));
 
 /* Implicit Return Arrow Function (no need to use return keyword & curly brackets) */
 
 /* method 1 */
 const addTwo2 = (num1,num2) => num1+num2 
-console.log(addTwo2(4,4));
+//console.log(addTwo2(4,4));
 
 /* method 2 */
 const addTwo3 = (num1,num2) => (num1+num2)
-console.log(addTwo3(5,5));
+//console.log(addTwo3(5,5));
 
 /* usecase of implicit arrow function with parenthesis :-
      suppose in this case we want to return an object */
 const addTwo4 = (num1,num2) => ({username: "divyanshu"})
-console.log(addTwo4(5,5));
+//console.log(addTwo4(5,5));
 

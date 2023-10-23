@@ -20,6 +20,7 @@
  map.set('Fr' , 'France');
  map.set('IND' , 'India');
  
+ /* A map will always have a unique key , but values can be same */
  //console.log(map);
 
  const myObj = {
@@ -28,6 +29,7 @@
     user: "divyanshu"
  }
 
+ /* An object will also always have a unique key , but values can be same */
  //console.log(myObj);
 
  for (const key of map) {
@@ -36,11 +38,13 @@
 
  for (const [key , value] of map) {
     //console.log(key  , ':-' , value);
+    console.log(value);
  }
 
 
 /* An object is not iterable through a for-of loop  */
 
- for (const [key , value] of myObj) {
-    console.log(key  , ':-' , value);
- }
+//  for (const key of myObj) {
+//     //console.log(key  , ':-' , value);
+//     console.log(key);
+//  }

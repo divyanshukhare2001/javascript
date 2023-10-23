@@ -19,9 +19,9 @@ function printMe(item){
 coding.forEach(printMe);
 
 
-/* an name can be given for there 3 parameters used below */
-coding.forEach( (item , index , array) => {
-     //console.log(item , index , array);
+/* a name can be given for there 3 parameters used below */
+coding.forEach( (item ,index , array) => {
+     console.log(item ,index , array);
 } )
 
 const myCoding = [
@@ -40,5 +40,5 @@ const myCoding = [
 ]
 
 myCoding.forEach( (item) => {
-     console.log(item.language);
+    // console.log(item.language);
 } )

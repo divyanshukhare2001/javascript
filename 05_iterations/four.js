@@ -1,3 +1,7 @@
+/* for-in loop */
+
+/* for-in loop is used to iterarte over an object */
+
 const myObject = {
     js: 'javascript',
     cpp: 'c++',
@@ -6,7 +10,8 @@ const myObject = {
 }
 
 for (const key in myObject) {
-   //console.log(key);
+   //console.log(key); /* syntax for printing key in objects */
+   //console.log(myObject[key]); /* syntax for printing values in objects */
 }
 
 for (const key in myObject) {
@@ -17,7 +22,11 @@ for (const key in myObject) {
  const programming = ['js' , 'cpp' , 'java' , 'py'];
  
  for (const key in programming) {
-   //console.log(key);
+   //console.log(key);  
+   /* In case of for-in index number will be printed of an array
+                         with this syntax */
+
+    // console.log(programming[key]); /* syntax for printing values in array with for-in loop */                 
  }
 
  for (const key in programming) {
@@ -32,6 +41,6 @@ for (const key in myObject) {
 
 /* map is not iterable through a for-in loop */
 
- for (const key in map) {
-  console.log(key);
- }
+//  for (const key in map) {
+//   console.log(key);
+//  }
