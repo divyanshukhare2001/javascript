@@ -1,4 +1,4 @@
-/* getting attribute from element */
+                                /* getting attribute from element */
 
 document.getElementById('title')
 document.getElementById('title').id
@@ -10,7 +10,7 @@ document.getElementById('title').className
 document.getElementsByClassName('heading')
 HTMLCollection [h1#title.heading, title: h1#title.heading]
 
-/* getting & setting attribute from element */
+                           /* getting & setting attribute from element */
 
 document.getElementById('title').getAttribute('id')
 'title'
@@ -26,7 +26,7 @@ undefined
 document.getElementById('title').className
 'test heading'
 
-/* styling the element */
+                                    /* styling the element */
 
 title.style.backgroundColor = 'green'
 'green'
@@ -35,7 +35,7 @@ title.style.padding = '10px'
 title.style.borderRadius = '15px'
 '15px'
 
-/* extracting content from the element */
+                              /* extracting content from the element */
 
 title.textContent
 'DOM learning on chai aur code test text '
@@ -48,7 +48,7 @@ title.innerText
 if a part of content is been hidden using css like in this case then , that part won't be visible through innerText but will be visible through textContent  and with innerHTML all the text with the html tags used inside them will also be visible  */
 
 
-/* more selectors */
+                                    /* more selectors */
 
 document.querySelector('h2')
 <h2>​Lorem ipsum dolor sit 1.​</h2>
@@ -67,7 +67,7 @@ document.querySelector('input[type="password"]')
 document.querySelector('p:first-child')
 null
 
-/* how to select & make changes in a single element */
+                     /* how to select & make changes in a single element */
 
 document.querySelector('UL')
 <ul>​…​</ul>​
@@ -92,7 +92,7 @@ myLi.innerText = 'five'
 
 /* when we use querySelectAll for selecting all elements , it binds all elements into a NodeList that is not exactly similar to Array
 
-Operations on NodeList:- */
+                               Operations on NodeList:- */
 
 const myLiList = document.querySelectorAll('li')
 undefined
