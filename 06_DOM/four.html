@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chai aur code</title>
+    </head>
+    <body style="background-color: #212121;color: #fff;">
+        <ul class="language">
+            <li>Javascript</li>
+        </ul>
+    </body>
+    <script>
+
+    //adding
+
+        function addLanguage(langName){
+        const myUl = document.querySelector('ul');
+        console.log(myUl);
+            const list = document.createElement('li');
+            console.log(list);
+        list.innerHTML = langName;
+        myUl.appendChild(list);
+        
+        }
+
+        addLanguage("python");
+        addLanguage("typescript");
+
+        function addOptimisedLanguage(langName){
+        const myUl = document.querySelector('ul');
+            const list = document.createElement('li');
+        list.appendChild(document.createTextNode(langName));
+        myUl.appendChild(list);
+        
+        }
+
+        addOptimisedLanguage('golang');
+
+        /* In 1st function we need to go through the entire list to reach its end and add text using innerHTML
+        thus making operation costly for large number of files , but in 2nd function we are just appending the text node directly to the end of list
+        through appendChild() , thus being more cost-efficient */
+
+    // //editing
+    const secondLang = document.querySelector("li:nth-child(2)");
+    /* this method is to get a specific number element through .querySelector() */
+
+    /* method 1 */
+    //secondLang.innerHTML = "mySQL";
+
+    /* method 2 */
+    //secondLang.innerText = "mySQL";
+
+    /* method 3 */
+    const list = document.createElement('li');
+        list.appendChild(document.createTextNode('mySQL'));
+        secondLang.replaceWith(list);
+
+    //editing
+
+    const firstLang = document.querySelector("li:first-child");
+    firstLang.outerHTML = "<li>typescript</li>";
+
+
+    //remove
+
+    const lastLang = document.querySelector('li:last-child');
+    lastLang.remove();
+
+    </script>
+    </html>
